@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Brilian Marketplace</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #0d1b2a;
+      color: #f5c842;
+    }
+    .header {
+      padding: 30px 20px;
+      text-align: center;
+      background-color: #0d1b2a;
+      border-bottom: 1px solid rgba(245, 200, 66, 0.2);
+    }
+    .header h1 {
+      font-size: 2rem;
+      color: #f5c842;
+      letter-spacing: 2px;
+      margin: 0;
+      font-weight: 600;
+    }
+    .header h1 span {
+      font-weight: normal;
+      font-size: 1rem;
+      display: block;
+      margin-top: 5px;
+      color: #c9b275;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+    .card {
+      background-color: #1a2636;
+      color: white;
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+    .card img {
+      width: 80px;
+      height: 80px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+    .card h2 {
+      margin: 0 0 10px;
+      font-size: 1.2rem;
+    }
+    .card p {
+      font-size: 0.9rem;
+      margin-bottom: 15px;
+    }
+    .card a {
+      text-decoration: none;
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-weight: bold;
+      display: inline-block;
+      font-size: 0.9rem;
+      background-color: #f5c842;
+      color: #000;
+    }
+    .card-gold {
+      background: linear-gradient(145deg, #ffd700, #e6be00);
+      color: #000;
+      animation: shine 3s infinite linear;
+    }
+    .card-gold a {
+      background-color: #000;
+      color: #ffd700;
+    }
+    .card-gold .badge {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: crimson;
+      color: #fff;
+      font-size: 0.75rem;
+      padding: 4px 8px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    @keyframes shine {
+      0% { background-position: -200px; }
+      100% { background-position: 200px; }
+    }
+    .faq {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px 40px;
+    }
+    .faq h2 {
+      font-size: 1.5rem;
+      color: #f5c842;
+      margin-bottom: 20px;
+    }
+    .faq-item {
+      margin-bottom: 20px;
+    }
+    .faq-item h3 {
+      margin: 0 0 10px;
+      font-size: 1.1rem;
+      color: #ffffff;
+    }
+    .faq-item p {
+      margin: 0;
+      color: #d4cfcf;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>BRILIAN MARKETPLACE<span>Premium Apps & Layanan Digital | Harga Murah</span></h1>
+  </div>
+  <div class="container">
+    <div class="card card-gold">
+      <span class="badge">TERBATAS</span>
+      <h2>Canva Pro Gratis</h2>
+      <p>Dapatkan akses Canva Pro secara gratis, lewati iklan dan nikmati semua fiturnya!</p>
+      <a href="https://link-hub.net/1340894/canva-pro-gratis">Dapatkan Akses</a>
+    </div>
+    <div class="card">
+      <img src="Desain tanpa judul_20250420_002527_0000.png" alt="Canva Pro">
+      <h2>Canva Pro</h2>
+      <p>Nikmati semua fitur premium Canva Pro untuk desain tanpa batas.</p>
+      <a href="https://wa.me/62882005626750?text=Halo%20saya%20ingin%20pesan%20Canva%20Pro">Beli Sekarang</a>
+    </div>
+    <div class="card">
+      <img src="Desain tanpa judul_20250420_093446_0000.png" alt="CapCut Pro">
+      <h2>CapCut Pro</h2>
+      <p>Edit video lebih profesional tanpa watermark dan iklan.</p>
+      <a href="https://wa.me/62882005626750?text=Halo%20saya%20ingin%20pesan%20CapCut%20Pro">Beli Sekarang</a>
+    </div>
+    <div class="card">
+      <img src="Desain tanpa judul_20250420_004027_0000.png" alt="Alight Motion">
+      <h2>Alight Motion Pro</h2>
+      <p>Motion design dan animasi jadi lebih mudah dan tanpa watermark.</p>
+      <a href="https://wa.me/62882005626750?text=Halo%20saya%20ingin%20pesan%20Alight%20Motion%20Pro">Beli Sekarang</a>
+    </div>
+    <div class="card">
+      <img src="Desain tanpa judul_20250420_114721_0000 (1).png" alt="ChatGPT">
+      <h2>ChatGPT</h2>
+      <p>Gunakan AI pintar untuk membantu semua kebutuhan harian dan kerja.</p>
+      <a href="https://wa.me/62882005626750?text=Halo%20saya%20ingin%20pesan%20ChatGPT">Beli Sekarang</a>
+    </div>
+    <div class="card">
+      <img src="Desain tanpa judul_20250420_004302_0000.png" alt="Netflix">
+      <h2>Netflix</h2>
+      <p>Nonton ribuan film dan series premium dengan harga hemat.</p>
+      <a href="https://wa.me/62882005626750?text=Halo%20saya%20ingin%20pesan%20Netflix">Beli Sekarang</a>
+    </div>
+    <div class="card">
+      <img src="Desain tanpa judul_20250420_003054_0000.png" alt="Spotify">
+      <h2>Spotify</h2>
+      <p>Streaming musik tanpa iklan dan bisa offline.</p>
+      <a href="https://wa.me/62882005626750?text=Halo%20saya%20ingin%20pesan%20Spotify">Beli Sekarang</a>
+    </div>
+    <div class="card">
+      <img src="Desain tanpa judul_20250420_093839_0000.png" alt="YouTube Premium">
+      <h2>YouTube Premium</h2>
+      <p>Nonton tanpa iklan dan bisa putar di latar belakang.</p>
+      <a href="https://wa.me/62882005626750?text=Halo%20saya%20ingin%20pesan%20YouTube%20Premium">Beli Sekarang</a>
+    </div>
+    <div class="card">
+      <h2>Suntik Sosmed</h2>
+      <p>Layanan suntik followers, like, viewers, dan engagement lainnya.</p>
+      <a href="https://wa.me/62882005626750?text=Halo%20saya%20ingin%20tanya%20tentang%20Suntik%20Sosmed">Tanyakan</a>
+    </div>
+    <div class="card">
+      <h2>Aplikasi Pro Lainnya</h2>
+      <p>Tersedia berbagai aplikasi premium lainnya sesuai kebutuhanmu.</p>
+      <a href="https://wa.me/62882005626750?text=Halo%20saya%20ingin%20tanya%20tentang%20Aplikasi%20Pro%20Lainnya">Tanyakan</a>
+    </div>
+    <div class="card">
+      <h2>Kebutuhan Game</h2>
+      <p>Topup, PO skin, Roomtour, dan layanan game lainnya tersedia!</p>
+      <a href="https://wa.me/62882005626750?text=Halo%20saya%20ingin%20tanya%20tentang%20Kebutuhan%20Game">Tanyakan</a>
+    </div>
+  </div>
+  <div class="faq">
+    <h2>FAQ (Pertanyaan Umum)</h2>
+    <div class="faq-item">
+      <h3>Apakah layanan ini resmi?</h3>
+      <p>Kami menyediakan layanan dari penyedia terpercaya dan aman digunakan.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Bagaimana cara pesan?</h3>
+      <p>Cukup klik tombol "Beli Sekarang" atau "Tanyakan", kamu akan diarahkan ke WhatsApp kami.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Berapa lama prosesnya?</h3>
+      <p>Biasanya hanya beberapa menit setelah pembayaran dikonfirmasi.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Apa bisa langganan bulanan atau tahunan?</h3>
+      <p>Ya, kami menyediakan berbagai durasi sesuai kebutuhan kamu.</p>
+    </div>
+  </div>
+</body>
+</html>
